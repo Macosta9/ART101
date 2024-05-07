@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(212, 247, 179);
+    color: black; 
+}
+h1, h2 {
+    border: 2px solid rgb(35, 70, 59);
+    padding: 10px; 
+    background-color: rgb(217, 239, 248); 
+}
+p {
+    padding: 10px; 
+    background-color: rgb(212, 247, 179); 
+}

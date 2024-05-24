@@ -1,7 +1,6 @@
 /*
-* Author: Elisa Anderson,elanande@ucsc.edu>
-* Created: May 2 2024
-* License: Public Domain
+* Author: Mariana Acosta
+* Created: May 19 2024
 */
 
 //sortUserName - a function that takes user input and sorts the letters

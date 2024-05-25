@@ -1,0 +1,32 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 6px #f7ace6;
+    background-color: #b0f1fa;
+  }
+
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 6px #d8a2ee;
+    background-color: #f6fca3;
+  }
+
+  h1 {
+    color: #da6692;
+    font-family: 'cursive', Lucida Handwriting;
+    font-size: 200%;
+  }
+
+  h2 {
+    color: #da6692;
+    font-family: 'cursive', Lucida Handwriting;
+    font-size: 200%;
+  }
+  
+  p {
+    font-family: 'cursive', Lucida Handwriting;
+    text-indent: 20px;
+    margin-left: 10px;
+    color: #da6692;
+  }

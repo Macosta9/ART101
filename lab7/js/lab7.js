@@ -3,21 +3,18 @@
  * 05.01.2024
  **/
 
-// sortUserName 
-function sortUserName(){
-	var userName = window.prompt('What is my name?');
-  console.log("user.Name =", userName); 
-// split string array
-var nameArray = userName.split ('');
-console.log("nameArray =", nameArray);
-//sort the array
-var nameArraySort = nameArray.sort();
-console.log("nameArraySort =", nameArraySort);
-// join array back to a string
-var nameSorted = nameArraysort.join('');
-console.log("nameSorted =", nameSorted);
-return nameSorted;
- } 
+//sortUserName - a function that takes user input and sorts the letters
+//of their name
+
+
+function getNameAndSort() {
+    const userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+    console.log("userName =", userName);
+    let nameArray = userName.split('').sort().join('');
+    console.log("nameArray =", nameArray);
+    return nameArray;
+    }
+
 // output
-document.writeln("Mariana", 
-sortUserName(),"</br>");
+document.writeln("Oh hey, I've fixed your name: ",
+    getNameAndSort(), "</br>");
